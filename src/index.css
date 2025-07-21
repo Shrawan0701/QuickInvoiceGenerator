@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-animation {
+  animation: spin 1s linear infinite;
+}
+
+.invoiceform input:focus,
+.invoiceform textarea:focus,
+.invoiceform select:focus {
+  box-shadow: none !important;
+}
