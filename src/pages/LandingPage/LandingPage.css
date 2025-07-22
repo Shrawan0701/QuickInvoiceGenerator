@@ -2,7 +2,7 @@
 .hero-section {
     /* Gradient overlay for better text visibility on background image */
     background: linear-gradient(rgba(13, 110, 253, 0.80), rgba(13, 110, 253, 0.70)),
-    url('../assets/Landing1.png') no-repeat center center;;
+    url('../assets/logo.png') no-repeat center center;;
     background-size: cover;
     color: #ffffff; /* Ensure text is white */
 }
