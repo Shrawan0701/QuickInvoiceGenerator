@@ -159,7 +159,7 @@ const LandingPage = () => {
                     <div className="row align-items-center gy-4">
                         <div className="col-md-6">
                             <img
-                                src={assets.landing1}
+                                src={assets.Landing1}
                                 className="img-fluid rounded shadow-lg"
                                 alt="Invoice Customization"
                                 onError={(e) => { e.target.onerror = null; e.target.src='https://placehold.co/600x400/E0E0E0/000000?text=Error'; }}
@@ -179,7 +179,7 @@ const LandingPage = () => {
                     <div className="row align-items-center gy-4 mt-5 flex-row-reverse"> {/* flex-row-reverse alternates image/text */}
                         <div className="col-md-6">
                             <img
-                                src={assets.landing2}
+                                src={assets.Landing2}
                                 className="img-fluid rounded shadow-lg"
                                 alt="Time Saving"
                                 onError={(e) => { e.target.onerror = null; e.target.src='https://placehold.co/600x400/E0E0E0/000000?text=Error'; }}
@@ -201,7 +201,7 @@ const LandingPage = () => {
                     <div className="row align-items-center gy-4 mt-5">
                         <div className="col-md-6">
                             <img
-                                src={assets.landing3}
+                                src={assets.Landing3}
                                 className="img-fluid rounded shadow-lg"
                                 alt="Invoice Customization"
                                 onError={(e) => { e.target.onerror = null; e.target.src='https://placehold.co/600x400/E0E0E0/000000?text=Error'; }}
@@ -221,7 +221,7 @@ const LandingPage = () => {
                     <div className="row align-items-center gy-4 mt-5 flex-row-reverse"> {/* flex-row-reverse alternates image/text */}
                         <div className="col-md-6">
                             <img
-                                src={assets.landing4}
+                                src={assets.Landing4}
                                 className="img-fluid rounded shadow-lg"
                                 alt="Time Saving"
                                 onError={(e) => { e.target.onerror = null; e.target.src='https://placehold.co/600x400/E0E0E0/000000?text=Error'; }}
