@@ -5,10 +5,10 @@ import template4 from './template4.png';
 import template5 from './template5.png';
 import upload_area from './upload_area.png';
 import logo from './logo.png';
-import landing1 from './landing1.png';
-import landing2 from './landing2.png';
-import landing3 from './landing3.png';
-import landing4 from './landing4.png';
+import Landing1 from './Landing1.png';
+import Landing2 from './Landing2.png';
+import Landing3 from './Landing3.png';
+import Landing4 from './Landing4.png';
 
 export const assets = {
     template1,
@@ -18,10 +18,10 @@ export const assets = {
     template5,
     upload_area,
     logo,
-    landing1,
-    landing2,
-    landing3,
-    landing4,
+    Landing1,
+    Landing2,
+    Landing3,
+    Landing4,
 }
 
 export const templates = [
