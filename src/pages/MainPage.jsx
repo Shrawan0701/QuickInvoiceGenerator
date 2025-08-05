@@ -4,7 +4,7 @@ import InvoiceForm from "../components/InvoiceForm";
 import TemplateGrid from "../components/TemplateGrid";
 import { Pencil } from "lucide-react";
 import toast from "react-hot-toast";
-import { AppContext } from "../context/AppContext.jsx"; // lucide icon
+import { AppContext } from "../context/AppContext.jsx"; 
 
 function MainPage() {
   const navigate = useNavigate();
