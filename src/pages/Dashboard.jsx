@@ -5,8 +5,7 @@ import { AppContext, initialInvoiceData } from "../context/AppContext.jsx";
 import { getAllInvoices } from "../service/invoiceService.js";
 import toast from "react-hot-toast";
 import { useAuth } from "@clerk/clerk-react";
-import { formatDate } from "../utils/formatInvoiceData.js"; // Adjust path as needed
-
+import { formatDate } from "../utils/formatInvoiceData.js"; 
 
 function Dashboard() {
   const [invoices, setInvoices] = useState([]);
@@ -39,7 +38,7 @@ function Dashboard() {
   };
 
   const handleCreateNew = () => {
-    // Reset to initial state from context if needed
+
     setInvoiceTitle("Create Invoice");
     setSelectedTemplate("template1");
     setInvoiceData(initialInvoiceData);
