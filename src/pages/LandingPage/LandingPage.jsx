@@ -11,18 +11,7 @@ const LandingPage = () => {
     const navigate = useNavigate();
     const {openSignIn} = useClerk();
     const {setInvoiceData, setSelectedTemplate, setInvoiceTitle} = useContext(AppContext);
-    // useEffect(() => {
-    //     // Get all elements with data-bs-toggle="tooltip"
-    //     const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-    //     // Initialize a new Bootstrap tooltip for each trigger element
-    //     tooltipTriggerList.map(function (tooltipTriggerEl) {
-    //         // Ensure window.bootstrap is available
-    //         if (window.bootstrap && typeof window.bootstrap.Tooltip === 'function') {
-    //             return new window.bootstrap.Tooltip(tooltipTriggerEl);
-    //         }
-    //         return null;
-    //     });
-    // }, []); // Empty dependency array means this effect runs only once on mount
+    
 
     const handleActionButton = () => {
         if (user) {
@@ -37,7 +26,7 @@ const LandingPage = () => {
 
     return (
         <>
-            {/* Hero Section: Full-width, centered text with background image */}
+            {/* Hero Section */}
             <header id="hero" className="hero-section text-white text-center">
                 <div className="container py-5 d-flex flex-column justify-content-center" style={{ minHeight: '85vh' }}>
                     <div className="row py-lg-5">
@@ -63,7 +52,7 @@ const LandingPage = () => {
                 </div>
             </header>
 
-            {/* How It Works Section: Explains the process in steps using cards */}
+            {/* How It Works Section */}
             <section id="how-it-works" className="py-5 bg-light">
                 <div className="container">
                     <h2 className="text-center mb-5 display-5 fw-bold">Get Started in 4 Simple Steps</h2>
